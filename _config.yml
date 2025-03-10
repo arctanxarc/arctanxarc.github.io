@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Rongyu Zhang"
-description              : "Dual Ph.D. Candidate majoring in EE & CS."
-repository               : "RoyZry98/RoyZry98.github.io"
+title                    : "Your Name"
+description              : "Your Description"
+repository               : "arctanxarc/arctanx"
 google_scholar_stats_use_cdn : true
 
 # google analytics
