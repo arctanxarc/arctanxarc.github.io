@@ -590,7 +590,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
 <span class='anchor' id='miscellaneous'></span>
 
 # 😄 Miscellaneous
-<div class="highlight-blocks">
+<!-- <div class="highlight-blocks">
   <div class="highlight-block">
     <h3>❤️ Family</h3>
     <ul>
@@ -619,7 +619,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
   </div>
 </div>
 
-<br>
+<br> -->
 
 <!-- <div style="text-align: center;"> -->
 <div style="width: 20%; position:relative; left:40%">
