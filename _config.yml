@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Your Name"
-description              : "Your Description"
+description              : "Niebelungen"
 repository               : "arctanxarc/arctanx"
 google_scholar_stats_use_cdn : true
 
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Rongyu Zhang"
-  avatar           : "images/icon.png"
-  bio              : "NJU & PolyU"
+  name             : "Ruichuan An"
+  avatar           : "images/arc_arc.png"
+  bio              : "XJTU & PKU"
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=rRcc9eoAAAAJ"
-  email            : "rongyuzhang@smail.nju.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=R5iSLPQAAAAJ&hl=zh-CN"
+  email            : "arctanxarc@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,10 +37,10 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "RoyZry98"
+  github           : "arctanxarc"
   google_plus      :
   keybase          :
-  instagram        : "royzry"
+  instagram        : #
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "rongyu-zhang-2b94a82a5"
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "RoyZry98"
+  twitter          : "arctanxarc"
   vine             :
   weibo            :
   xing             :
