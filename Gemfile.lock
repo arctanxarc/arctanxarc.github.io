@@ -313,3 +313,7 @@ DEPENDENCIES
 
 BUNDLED WITH
   2.4.22
+
+# 添加到Gemfile末尾
+gem "activesupport", "~> 7.0.0"  # 使用与Ruby 3.1兼容的版本
+gem "jekyll", "~> 3.9.3"         # 明确指定jekyll版本
