@@ -15,11 +15,8 @@ main:
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Services"
-    url: "/#-services"
-
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Mentorship and Services"
+    url: "/#-mentorship-and-services"
 
   - title: "Miscellaneous"
     url: "/#-miscellaneous"

@@ -276,42 +276,42 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👤 Biography
-Ruichuan An is a senior undergraduate student at **Xi'an Jiaotong University** and I will join **Peking University** as a master, where I am supervised by [Prof. Wentao Zhang](https://zwt233.github.io/) at [AAIS](https://www.aais.pku.edu.cn/). Currently, I serve as a research intern at **Microsoft Research Asia**. Previously, I had a wonderful time doing research at [HMI Lab](https://pku-hmi-lab.github.io/HMI-Web/), where I worked closely with [Prof. Shanghang Zhang](https://www.shanghangzhang.com). More about my experience can be found in [CV](assets/Ruichuan_An_new.pdf).
+ I am a first-year master student at **Peking University**, where I am co-supervised by [**Wentao Zhang**](https://zwt233.github.io/) and [**Weinan E**](https://scholar.google.com/citations?user=i2mOt14AAAAJ&hl=en) at [**AAIS**](https://www.aais.pku.edu.cn/). I also closely work with [**Renrui Zhang**](https://scholar.google.com/citations?hl=en&user=YlL3xN4AAAAJ&view_op=list_works&sortby=pubdate). Previously, I had a wonderful time at [**Tiktok**](https://www.tiktok.com/explore) and [**MSRA**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), serving as research intern. More about my experience can be found in [CV](assets/Ruichuan_An_new.pdf).
 
-Many kind people helped me in my journey. If you want to talk more about research or seek advice that I might be able to provide, please no hesitation to reach out. Moreever, feel free to drop me an Email for any form of communication or collaboration!
+**Many kind people helped me in my journey.** If you want to talk more about research or seek advice that I might be able to provide, please no hesitation to reach out. My MBTI type is **ENFJ**(233), feel free to drop me an Email for any form of communication or collaboration! 
+
+📌 We have several academic intern positions at **DCML Lab (Peking University)**. We actively work on **Data-Centric AI** and **Vision-Language Model**. If you like what we do, don't hesitate to contact me. I currently lead a research group of master's and undergraduate students at Peking University. I am proud to have helped many of them secure **top-tier** labs and internships. You can find more details in [Mentorship](#mentorship).
+
+  <div class="highlight-block">
+    <h3>🫡 Motivation: "Why do I do research?"</h3>
+    <ul>
+      <li> To have the chance collaborating with global talents, I enjoy brainstorming and learning from people with different background. </li>
+      <li> For the sheer fun and joy of discovery. The three keywords I'm pursuing are <strong>Insight</strong> |  <strong>Innovation</strong> | <strong>Independence</strong>. </li>
+      <li> I hope my research could decorate individual's daily life one day. Even if it’s just a ripple, I want to leave a mark on this world.</li>
+    </ul>
+  </div>
 
 <div class="highlight-blocks">
   <div class="highlight-block">
     <h3>🔬 AI Researcher</h3>
     <ul>
-      <li>Research focus on <strong>Multi-Modality</strong> and <strong>Data-Centric AI</strong></li>
-      <li>Multi-Modality: Vision-Language Model, Unified Understanding and Generation, Personalization</li>
-      <li>Data-Centric AI: Dataset in learning, Synthetic Data(including other interesting phenomenon about data)</li>
+      <li>Current Interests focus on <strong>Unified Model</strong> and <strong>Reasoning</strong></li> 
+      <li>Unified Model: Build Unified Representation and Make Understanding and Generation truly benefits each other.</li>
+      <li>Reasoning: Think with (generated) image/ video, better adaptation to the real world environments.</li>
+
     </ul>
   </div>
-  
-  <!-- <div class="highlight-block">
-    <h3>✍️ Given Credits</h3>
-    <ul>
-      <li><strong>First</strong> China Association for Science and Technology "<strong>Young Elite Scientist Sponsorship Program (Ph.D.)</strong>", 2025-2027</li>
-      <li><a href="https://scholar.google.com/citations?user=R5iSLPQAAAAJ&hl=zh-CN" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-152%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
-</a></li>
-	<li><a href="https://github.com/RoyZry98" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-Stars%20212-9cf?logo=GitHub&labelColor=f6f6f6&color=EC707D&logoColor=000000&style=flat" alt="GitHub Stars">
-</a></li>
-    </ul>
-  </div> -->
-  
+
   <div class="highlight-block">
     <h3>☎️ Contact Info</h3>
     <ul>
       <li><strong>Address:</strong> <a href="https://www.google.com/maps/place/%E5%BE%AE%E8%BD%AF%E4%BA%9A%E6%B4%B2%E7%A0%94%E7%A9%B6%E9%99%A2/@39.977248,116.3321331,17z/data=!3m1!4b1!4m6!3m5!1s0x35f053f0ab311e9f:0x4a43f1f260da036c!8m2!3d39.977244!4d116.337004!16s%2Fg%2F1tg4jk1c?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D">Microsoft Research Asia, Beijing, China</a></li>
       <li><strong>Phone:</strong> +(86) 187-0689-6777</li>
-      <li><strong>Email:</strong> <email>arctanxarc[AT]gmail.com arctanxarc[AT]xjtu.edu.cn</email></li>
+      <li><strong>Email:</strong> <email>arctanxarc[AT]gmail.com</email></li>
       <li><strong>WeChat:</strong> arc2002822</li>
     </ul>
   </div>
+
 </div>
 
 # 🎓 Educations
@@ -322,14 +322,13 @@ Many kind people helped me in my journey. If you want to talk more about researc
 # 🔥 News
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
-	    <h4>📌 We have several academic intern positions at DCML Lab (Peking University). We actively work on Data-Centric AI and Multi-modality. If you like what we do, don't hesitate to contact me.</h4>
+        <p>[09.2025] 🎉 Three papers <strong>UniCTokens</strong>, <strong>PAM</strong> and <strong>A-CFG</strong> were accepted by <strong>NIPS 2025</strong> (CCF-A), I have two (co-)first author papers! </p>
+        <p>[09.2025] 🎓 I joined Peking University and pursuing master's degree. </p>
         <p>[03.2025] 🏆 I was awarded the <strong>Outstanding Graduate</strong> by XJTU.</p>
-	    <p>[03.2025] 💼 I joined <strong>Microsoft Research Asia</strong> as a Research Intern.</p>
 	    <p>[02.2025] 🎉 One paper <strong>MOVE-KD</strong> was accepted by <strong>CVPR 2025</strong> (CCF-A), congratulations to Jiajun.</p>
-	    <p>[12.2024] 🎉 One paper <strong>Draw and Understand</strong> was accepted by <strong>ICLR 2025</strong> (CCF-A), congratulations to Weifeng.</p>
-        <p>[09.2024] 🎓 I was offered a M.S. in Mathematics at Peking University supervised by <a class="blue-text" href="https://zwt233.github.io/" target="_blank"><strong>Prof. Wentao Zhang</strong></a>.</p>
-        <p>[06.2024] 🎉 One paper <strong>SSD-LLM</strong> was accepted by <strong>ECCV 2024</strong> (CCF-A), I am the co-first author, see you in Milano.</p>
-        <p>[05.2024] 🎉 One paper <strong>Can Modifying Data Address Graph Domain Adaptation?</strong> was accepted by <strong>KDD 2024</strong> (CCF-A), congratulations to Renhong.</p>
+	    <p>[12.2024] 🎉 One paper <strong>Draw and Understand</strong> was accepted by <strong>ICLR 2025</strong>, congratulations to Weifeng.</p>
+        <p>[06.2024] 🎉 One paper <strong>SSD-LLM</strong> was accepted by <strong>ECCV 2024</strong>, I am the co-first author, see you in Milano.</p>
+        <p>[05.2024] 🎉 One paper <strong>GDAD</strong> was accepted by <strong>KDD 2024</strong> (CCF-A), congratulations to Renhong.</p>
 	  </div>
 	</div>
  
@@ -337,209 +336,41 @@ Many kind people helped me in my journey. If you want to talk more about researc
 
 # 📝 Publications
 ## 📒 Selected publications/preprints
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NIPS'2025</div><img src='images/fig1_final-1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**UniCTokens: Boosting Personalized Understanding and Generation via Unified Concept Tokens**
+
+- **Ruichuan An**, Sihan Yang, Renrui Zhang, Zijun Shen, Ming Lu, Gaole Dai, Hao Liang, Ziyu Guo, Shilin Yan, Yulin Luo, Bocheng Zou, Chaoqun Yang, Wentao Zhang
+- Conference on Neural Information Processing Systems, 2025.
+- [[Paper]](https://arxiv.org/pdf/2505.14671?) [[Code, 100+ Stars🌟]](https://github.com/arctanxarc/UniCTokens)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NIPS'2025</div><img src='images/PAM_teaser-1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos**
+
+- Weifeng Lin*, Xinyu Wei\*, **Ruichuan An\***, Tianhe Ren, Tingwei Chen, Renrui Zhang, Ziyu Guo, Wentao Zhang, Lei Zhang, Hongsheng Li
+- Conference on Neural Information Processing Systems, 2025.
+- [[Paper]](https://arxiv.org/pdf/2506.05302) [[Code, 300+ Stars🌟]](https://github.com/Perceive-Anything/PAM)
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV'2024</div><img src='images/eccv_arc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model**
 
 - Yulin Luo*, **Ruichuan An\***, Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Shang
-- European Computer Vision Conference <br><strong>(CCF-A)</strong>, 2024.
+- European Computer Vision Conference, 2024.
 - [[Paper]](https://arxiv.org/abs/2405.02363) [[Code]](https://github.com/llm-as-dataset-analyst/SSDLLM)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv'2025</div><img src='images/iccv_arc.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-**MC-LLaVA: Multi-Concept Personalized Vision-Language Model**
-
-- **Ruichuan An**, Sihan Yang, Ming Lu, Renrui Zhang, Kai Zeng, Yulin Luo, Ying Chen, Jiajun Cao, Hao Liang, Qi She, Shanghang Zhang, Wentao Zhang
-<!-- - Arxiv <br><strong>(CCF-A)</strong>, 2025. -->
-- [[Paper]](https://arxiv.org/abs/2411.11706) [[Code]](https://github.com/arctanxarc/MC-LLaVA)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR'2025</div><img src='images/iclr_arc.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want**
-
-- Weifeng Lin, Xinyu Wei, **Ruichuan An**, Peng Gao, Bocheng Zou, Yulin Luo, Siyuan Huang, Shanghang Zhang, Hongsheng Li
-- International Conference on Learning Representations <br><strong>(CCF-A)</strong>, 2025.
-- [[Paper]](https://arxiv.org/abs/2403.20271) [[Code]](https://draw-and-understand.github.io/)
-</div>
-</div>
-
-<!-- ## 📚 Full publications
-*: Equal Contribution.<br>
-CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, <venue>TMC</venue>x 1, <venue>TCSVT</venue>x 1 <br><br>
-
-<button class="filter" type="button" onclick="filterPub('All')" style="--color: #000; --border: #000">All</button>&nbsp;
-<button class="filter" type="button" onclick="filterPub('First-authored')">First author</button>&nbsp;
-<button class="filter" type="button" onclick="filterPub('Efficiency')">Efficiency</button>&nbsp;
-<button class="filter" type="button" onclick="filterPub('Generalization')">Generalization</button>&nbsp;
-
-<ul id="publications">
-    <li first_authored=true category="Efficiency">
-        <venue>AAAI'24</venue><pt>Efficient Deweather Mixture-of-Experts with Uncertainty-aware Feature-wise Linear Modulation</pt><br>
-	<b>Rongyu Zhang</b><g>, Yulin Luo, Jiaming Liu, Huanrui Yang, Zhen Dong, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Yuan Du, Shanghang Zhang</g><br>
-        <p>
-            <a href="https://ojs.aaai.org/index.php/AAAI/article/download/29622/31055" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98/MoFME-Pytorch" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/RoyZry98/MoFME-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li first_authored=true category="Efficiency">
-        <venue>MM'24</venue><pt>VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness</pt><br>
-        <b>Rongyu Zhang*</b><g>, Zefan Cai*, Huanrui Yang*, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang</g><br />
-        <p>
-            <a href="https://arxiv.org/pdf/2401.07853" class="button-59">PDF</a>
-	    <a href="https://github.com/RoyZry98/VeCAF-Pytorch" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/RoyZry98/VeCAF-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li first_authored=true category="Generalization">
-	<venue>TMC'24</venue><pt>Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data</pt><br>
-	<b>Rongyu Zhang</b><g>, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li</g><br>
-	<p>
-		<a class="button-59" href="https://arxiv.org/pdf/2405.06413">PDF</a>
-		<a class="button-59" href="https://github.com/RoyZry98">Code</a>
-	</p>
-    </li>
-    <li first_authored=true category="Generalization">
-        <venue>TCSVT'25</venue><pt>BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection</pt><br>
-        <b>Rongyu Zhang</b><g>, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du, Shanghang Shang</g><br>
-        <p>
-		<a href="https://ieeexplore.ieee.org/document/10816404" class="button-59">PDF</a>
-		<a class="button-59" href="https://github.com/RoyZry98">Code</a>
-        </p>
-    </li>
-    <li first_authored=true category="Efficiency">
-        <venue>Network'23</venue><pt>Optimizing Efficient Personalized Federated Learning with Hypernetworks at Edge</pt><br>
-        <b>Rongyu Zhang</b><g>, Yun Chen, Chenrui Wu, Fangxin Wang, Jiangchuan Liu</g><br />
-        <p>
-            <a href="https://arxiv.org/pdf/2211.17126" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-        </p>
-    </li>
-    <li first_authored=true category="Efficiency">
-        <venue>Nossdav'23</venue><pt>RepCaM: Re-parameterization Content-aware Modulation for Neural Video Delivery</pt><br>
-        <b>Rongyu Zhang*</b><g>, Lixuan Du*, Jiaming Liu*, Congcong Song, Fangxin Wang, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang</g><br />
-        <p>
-            <a href="https://dl.acm.org/doi/pdf/10.1145/3592473.3592567" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98/RepCaM-Pytorch" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-	    <font color="red">[Oral Presentation]</font>
-        </p>
-    </li>
-    <li first_authored=true category="Efficiency">
-        <venue>ICME'23</venue><pt>Cluster-driven GNN-based Federated Recommendation System with Biased Message Dropout</pt><br>
-        <b>Rongyu Zhang*</b><g>, Yun Chen*, Chenrui Wu, Fangxin Wang</g><br />
-        <p>
-            <a href="https://ieeexplore.ieee.org/abstract/document/10219619" class="button-59">PDF</a>
-	    <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-        </p>
-    </li>
-    <li first_authored=true category="Generalization">
-        <venue>ICRA'24</venue><pt>BEVUDA: Multi-geometric Space Alignments for Domain Adaptive BEV 3D Object Detection</pt><br>
-        <g>Jiaming Liu*, </g><b>Rongyu Zhang*</b><g>, Xiaowei Chi, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang</g><br />
-        <p>
-            <a href="https://arxiv.org/pdf/2211.17126" class="button-59">PDF</a>
-	    <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-        </p>
-    </li>
-    <li category="Efficiency">
-        <venue>AAAI'25</venue><pt>PAT: Pruning-Aware Tuning for Large Language Models</pt><br>
-        <g>Yijiang Liu, Huanrui Yang, Youxin Chen, </g><b>Rongyu Zhang</b><g>, Miao Wang, Yuan Du, Li Du</g><br />
-        <p>
-            <a href="https://arxiv.org/abs/2006.04558" class="button-59">PDF</a>
-	    <a href="https://github.com/kriskrisliu/PAT" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/kriskrisliu/PAT?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li category="Generalization">
-        <venue>CVPR'23</venue><pt>Cloud-Device Collaborative Adaptation to Continual Changing Environments in the Real-world</pt><br>
-        <g>Yulu Gan, Mingjie Pan, </g><b>Rongyu Zhang</b><g>, Zijian Ling, Lingran Zhao, Jiaming Liu, Shanghang Zhang</g><br />
-        <p>
-            <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Pan_Cloud-Device_Collaborative_Adaptation_to_Continual_Changing_Environments_in_the_Real-World_CVPR_2023_paper.pdf" class="button-59">PDF</a>
-	    <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-        </p>
-    </li>
-    <li category="Generalization">
-        <venue>CVPR'23</venue><pt>BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks</pt><br>
-        <g>Xiaowei Chi, Jiaming Liu, Ming Lu, </g><b>Rongyu Zhang</b><g>, Zhaoqing Wang, Yandong Guo, Shanghang Zhang</g><br />
-        <p>
-            <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Chi_BEV-SAN_Accurate_BEV_3D_Object_Detection_via_Slice_Attention_Networks_CVPR_2023_paper.pdf" class="button-59">PDF</a>
-	    <a href="https://github.com/litwellchi/BEV-SAN" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/litwellchi/BEV-SAN?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li category="Efficiency">
-        <venue>CVPR'23</venue><pt>FedAB: Truthful Federated Learning with Auction-based Combinatorial Multi-armed Bandit</pt><br>
-        <g>Chenrui Wu, Yifei Zhu, </g><b>Rongyu Zhang</b><g>, Yun Chen, Fangxin Wang, Shuguang Cui</g><br />
-        <p>
-            <a href="https://ieeexplore.ieee.org/abstract/document/10092911" class="button-59">PDF</a>
-	    <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-        </p>
-    </li>
-    <li first_authored=true category="Generalization">
-        <venue1>arXiv'24</venue1><pt>Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation</pt><br>
-        <b>Rongyu Zhang*</b><g>, Aosong Cheng, Yulin Luo, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Yuan Du, Yanbing Jiang, Shanghang Zhang</g> <br />
-        <p>
-            <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li first_authored=true category="Efficiency">
-        <venue1>arXiv'24</venue1><pt>Implicit Neural Image Field for Biological Microscopy Image Compression</pt><br>
-        <b>Rongyu Zhang*</b><g>, Gaole Dai*, Cheng-Ching Tseng*, Qingpo Wuwu*, Shaokang Wan*, Ming Lu, Tiejun Huang, Yu Zhou, Ali Ata Tuz, Matthias Gunzer, Jianxu Chen, Shanghang Zhang</g> <br />
-        <p>
-            <a href="http://arxiv.org/abs/2405.19012" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98/INIF-Pytorch" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/RoyZry98/INIF-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li first_authored=true category="Efficiency">
-        <venue1>arXiv'24</venue1><pt>Intuition-aware Mixture-of-Rank-1-Experts for Parameter Efficient Finetuning</pt><br>
-        <g>Yijiang Liu*, </g><b>Rongyu Zhang*</b><g>, Huanrui Yang, Kurt Keutzer, Yuan Du, Li Du, Shanghang Zhang</g> <br />
-        <p>
-            <a href="https://arxiv.org/pdf/2404.08985.pdf" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-        </p>
-    </li>
-    <li first_authored=true category="Generalization">
-        <venue1>arXiv'24</venue1><pt>M2Chat: Empowering VLM for Multimodal LLM Interleaved Text-Image Generation</pt><br>
-        <g>Xiaowei Chi*, </g><b>Rongyu Zhang*</b><g>, Zhengkai Jiang, Yijiang Liu, Yatian Wang, Xingqun Qi, Wenhan Luo, Peng Gao, Shanghang Zhang, Qifeng Liu, Yike Guo</g> <br />
-        <p>
-            <a href="https://arxiv.org/pdf/2311.17963" class="button-59">PDF</a>
-            <a href="https://github.com/litwellchi/M2Chat" class="button-59">Code</a>
-		<img src="https://img.shields.io/github/stars/litwellchi/M2Chat?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li category="Generalization">
-        <venue1>arXiv'24</venue1><pt>EVA: An Embodied World Model for Future Video Anticipation</pt><br>
-        <g>Xiaowei Chi, Hengyuan Zhang, Chun-Kai Fan, Xingqun Qi, </g><b>Rongyu Zhang</b><g>, Aosong Cheng, Yulin Luo, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Yuan Du, Yanbing Jiang, Shanghang Zhang</g> <br />
-        <p>
-            <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
-            <a href="https://github.com/litwellchi/EmbodiedVideoAnticipator" class="button-59">Code</a>
-		<img src="https://img.shields.io/github/stars/litwellchi/EmbodiedVideoAnticipator?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li category="Generalization">
-        <venue1>arXiv'24</venue1><pt>ViML: A Video, Music, Language Unified Dataset for Understanding and Generation</pt><br>
-        <g>Xiaowei Chi, Aosong Chen, Pengjun Fang, Yatian Wang, Zeyue Tian, Yingqing He, Zhaoyang Liu, Xingqun Qi, </g><b>Rongyu Zhang</b><g>, Mengfei Li, Jiahao Pan, Yanbing Jiang, Wei Xue, Wenhan Luo, Qifeng Chen, Shanghang Zhang, Qifeng Liu, Yike Guo</g> <br />
-        <p>
-            <a href="https://arxiv.org/pdf/2407.20962" class="button-59">PDF</a>
-            <a href="https://github.com/litwellchi/MMTrail" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/litwellchi/MMTrail?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-</ul>
-  
-<br>
-
-<span class='anchor' id='honors-and-awards'></span> -->
 
 # 🥇 Honors and Awards
 - *(2025)*: &nbsp;Outstanding Graduate.
@@ -549,20 +380,14 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
 
 <span class='anchor' id='services'></span>
 
-# 💼 Services
-<!-- #### Journal reviewer
-- IEEE Transaction on Mobile Computing
-- IEEE Transaction on Computers
-- IEEE Transaction on Neural Networks and Learning Systems
-- IEEE Internet of Things Journal -->
+# 💼 Mentorship and Services
 
 #### Conference reviewer
-- ICCV 2025, ICRA 2025, FM@ICLR 2025
+- ICLR 2025, NIPS 2025, ICCV 2025, ICRA 2025, FM@ICLR 2025
 
-<!-- <span class='anchor' id='internships'></span> -->
-
-<!-- # 💻 Internships
-- **Microsoft Research Asia** (2025.03-2025.09) Research Intern -->
+#### Mentorship
+- Sihan Yang, XJTU -> PKU, Internship: [**Kuaishou, Kling**](https://github.com/KlingTeam), [**Tiktok**](https://www.tiktok.com/)
+- Kai Zeng, TJU -> PKU, Internship: [**XiaoMi**](https://www.mi.com/sg/), [**Tiktok**](https://www.tiktok.com/)
 
 <br>
 
