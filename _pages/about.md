@@ -305,10 +305,10 @@ redirect_from:
   <div class="highlight-block">
     <h3>☎️ Contact Info</h3>
     <ul>
-      <li><strong>Address:</strong> <a href="https://www.google.com/maps/place/%E5%BE%AE%E8%BD%AF%E4%BA%9A%E6%B4%B2%E7%A0%94%E7%A9%B6%E9%99%A2/@39.977248,116.3321331,17z/data=!3m1!4b1!4m6!3m5!1s0x35f053f0ab311e9f:0x4a43f1f260da036c!8m2!3d39.977244!4d116.337004!16s%2Fg%2F1tg4jk1c?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D">Microsoft Research Asia, Beijing, China</a></li>
-      <li><strong>Phone:</strong> +(86) 187-0689-6777</li>
+      <li><strong>Address:</strong> <a href="https://www.google.com/maps/place/%E5%BE%AE%E8%BD%AF%E4%BA%9A%E6%B4%B2%E7%A0%94%E7%A9%B6%E9%99%A2/@39.977248,116.3321331,17z/data=!3m1!4b1!4m6!3m5!1s0x35f053f0ab311e9f:0x4a43f1f260da036c!8m2!3d39.977244!4d116.337004!16s%2Fg%2F1tg4jk1c?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D">Peking University, Beijing, China</a></li>
       <li><strong>Email:</strong> <email>arctanxarc[AT]gmail.com</email></li>
       <li><strong>WeChat:</strong> arc2002822</li>
+	  <li>Do <strong>not</strong> fell embarrassed to contact me.</li>
     </ul>
   </div>
 
