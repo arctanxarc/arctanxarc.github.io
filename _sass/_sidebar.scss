@@ -237,6 +237,30 @@
     white-space: nowrap;
   }
 
+  .author__visitor-badge {
+    margin: 8px 0 2px;
+    white-space: normal;
+
+    a {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+    }
+
+    a:after {
+      display: none;
+    }
+
+    img {
+      width: auto;
+      max-width: 170px;
+      border-radius: 999px;
+      box-shadow: 0 8px 18px rgba(20, 35, 57, 0.16);
+      border: 1px solid rgba(108, 149, 181, 0.18);
+    }
+  }
+
   a {
     display: block;
     margin-bottom: 5px;

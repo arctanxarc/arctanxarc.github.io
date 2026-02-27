@@ -179,20 +179,494 @@ redirect_from:
 	  text-decoration: none;
 	}
 	
-	.button-59:active {
-	  border-color: var(--theme-color);
-	  color: #fff;
-	  fill: var(--theme-color);
-	  background-color: var(--theme-color);
-	}
-	
-	@media (min-width: 768px) {
-	  .button-59 {
-	    padding-left: 5px;
-	    padding-right: 5px;
-	  }
-	}
-    </style>
+		.button-59:active {
+		  border-color: var(--theme-color);
+		  color: #fff;
+		  fill: var(--theme-color);
+		  background-color: var(--theme-color);
+		}
+
+		body {
+		  background:
+		    radial-gradient(circle at 10% 12%, rgba(236, 112, 125, 0.2), rgba(236, 112, 125, 0) 32%),
+		    radial-gradient(circle at 90% 9%, rgba(108, 149, 181, 0.22), rgba(108, 149, 181, 0) 34%),
+		    linear-gradient(180deg, #f5f8ff 0%, #ffffff 20%, #ffffff 100%);
+		}
+
+		.page__content {
+		  position: relative;
+		  isolation: isolate;
+		  z-index: 1;
+		}
+
+		.page__content::before {
+		  content: "";
+		  position: fixed;
+		  inset: 0;
+		  pointer-events: none;
+		  background-image: radial-gradient(rgba(86, 121, 152, 0.18) 0.8px, transparent 0.8px);
+		  background-size: 26px 26px;
+		  opacity: 0.15;
+		  z-index: -2;
+		}
+
+		.story-section {
+		  position: relative;
+		  margin: 0.8rem 0 1.7rem;
+		  padding: 1rem 1.1rem 1.1rem;
+		  border-radius: 1.05rem;
+		  border: 1px solid rgba(108, 149, 181, 0.2);
+		  background: linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(247, 251, 255, 0.9));
+		  box-shadow: 0 16px 34px rgba(22, 45, 72, 0.1);
+		}
+
+		.story-section::before {
+		  content: "";
+		  position: absolute;
+		  inset: 0 auto 0 0;
+		  width: 5px;
+		  border-radius: 1.05rem 0 0 1.05rem;
+		  background: linear-gradient(180deg, rgba(236, 112, 125, 0.86), rgba(108, 149, 181, 0.76));
+		}
+
+		.story-section h1 {
+		  margin-top: 0.05rem;
+		  border-radius: 0.8rem;
+		  border: 1px solid rgba(108, 149, 181, 0.2);
+		  background: linear-gradient(130deg, rgba(236, 112, 125, 0.16), rgba(108, 149, 181, 0.16));
+		  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+		  padding: 0.45rem 0.92rem 0.45rem 1rem;
+		}
+
+		.story-section > *:last-child {
+		  margin-bottom: 0.1rem;
+		}
+
+		.highlight-block,
+		.paper-box {
+		  background: linear-gradient(150deg, rgba(255, 255, 255, 0.97), rgba(248, 251, 255, 0.92));
+		  border: 1px solid rgba(108, 149, 181, 0.18);
+		  box-shadow: 0 14px 34px rgba(22, 45, 72, 0.09);
+		  backdrop-filter: blur(8px);
+		}
+
+		.highlight-block:hover {
+		  transform: translateY(-6px);
+		  box-shadow: 0 20px 46px rgba(22, 45, 72, 0.13);
+		}
+
+		.paper-box {
+		  position: relative;
+		  overflow: hidden;
+		  transform-style: preserve-3d;
+		  will-change: transform;
+		  transition: transform 0.28s ease, box-shadow 0.28s ease;
+		}
+
+		.paper-box.paper-tilt:hover {
+		  transform: perspective(950px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(-8px);
+		  box-shadow: 0 24px 50px rgba(22, 45, 72, 0.2);
+		}
+
+		.paper-box::after {
+		  content: "";
+		  position: absolute;
+		  inset: 0;
+		  border-radius: inherit;
+		  pointer-events: none;
+		  background: radial-gradient(circle at var(--glow-x, 0px) var(--glow-y, 0px), rgba(236, 112, 125, 0.15), rgba(236, 112, 125, 0) 36%);
+		}
+
+		.paper-box::before {
+		  content: "";
+		  position: absolute;
+		  inset: 0;
+		  border-radius: inherit;
+		  padding: 1px;
+		  background: linear-gradient(135deg, rgba(236, 112, 125, 0.42), rgba(108, 149, 181, 0.34));
+		  pointer-events: none;
+		  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+		  -webkit-mask-composite: xor;
+		  mask-composite: exclude;
+		  opacity: 0.68;
+		}
+
+		.paper-box .badge {
+		  border-radius: 999px;
+		  border: 1px solid rgba(255, 255, 255, 0.8);
+		  box-shadow: 0 7px 18px rgba(22, 45, 72, 0.2);
+		  background: linear-gradient(115deg, rgba(236, 112, 125, 0.92), rgba(108, 149, 181, 0.88));
+		  letter-spacing: 0.08em;
+		}
+
+		.paper-box-image > div {
+		  position: relative;
+		  overflow: hidden;
+		  border-radius: 0.8rem;
+		}
+
+		.paper-box-image > div::before {
+		  content: "";
+		  position: absolute;
+		  inset: 0;
+		  pointer-events: none;
+		  background-image:
+		    linear-gradient(rgba(108, 149, 181, 0.12) 1px, transparent 1px),
+		    linear-gradient(90deg, rgba(108, 149, 181, 0.12) 1px, transparent 1px);
+		  background-size: 18px 18px;
+		  opacity: 0.26;
+		}
+
+		.paper-box-image > div::after {
+		  content: "";
+		  position: absolute;
+		  inset: -12% -65%;
+		  pointer-events: none;
+		  background: linear-gradient(104deg, rgba(255, 255, 255, 0) 34%, rgba(255, 255, 255, 0.58) 51%, rgba(255, 255, 255, 0) 68%);
+		  transform: translateX(-64%) rotate(6deg);
+		  transition: transform 0.78s cubic-bezier(0.24, 0.74, 0.24, 1);
+		}
+
+		.paper-box.paper-tilt:hover .paper-box-image > div::after {
+		  transform: translateX(64%) rotate(6deg);
+		}
+
+		.paper-box-image img {
+		  border-radius: 0.72rem;
+		  border: 1px solid rgba(108, 149, 181, 0.24);
+		}
+
+		#news > div {
+		  border: 1px solid rgba(108, 149, 181, 0.24);
+		  border-radius: 0.95rem;
+		  padding: 0.4rem 0.78rem;
+		  background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(244, 249, 255, 0.94));
+		  box-shadow: 0 14px 34px rgba(22, 45, 72, 0.1);
+		}
+
+		#news > div::-webkit-scrollbar {
+		  width: 7px;
+		}
+
+		#news > div::-webkit-scrollbar-thumb {
+		  border-radius: 999px;
+		  background: linear-gradient(180deg, rgba(236, 112, 125, 0.65), rgba(108, 149, 181, 0.72));
+		}
+
+		#news p {
+		  margin: 0.52rem 0;
+		  padding: 0.55rem 0.8rem;
+		  border-left: 3px solid var(--theme-color);
+		  border-radius: 0.5rem;
+		  background: linear-gradient(110deg, rgba(236, 112, 125, 0.07), rgba(108, 149, 181, 0.05));
+		}
+
+		.mentorship-constellation {
+		  position: relative;
+		  margin-top: 0.8rem;
+		  padding: 0.9rem 1rem 0.95rem;
+		  border-radius: 0.95rem;
+		  border: 1px solid rgba(108, 149, 181, 0.26);
+		  background: linear-gradient(146deg, rgba(255, 255, 255, 0.96), rgba(245, 249, 255, 0.94));
+		  box-shadow: 0 14px 34px rgba(22, 45, 72, 0.1);
+		  overflow: hidden;
+		  min-height: 286px;
+		}
+
+		.mentorship-source {
+		  position: absolute !important;
+		  width: 1px;
+		  height: 1px;
+		  padding: 0;
+		  margin: -1px;
+		  overflow: hidden;
+		  clip: rect(0, 0, 0, 0);
+		  white-space: nowrap;
+		  border: 0;
+		}
+
+		.mentorship-map {
+		  position: relative;
+		  z-index: 0;
+		  height: 256px;
+		  border-radius: 0.82rem;
+		  background:
+		    radial-gradient(circle at 18% 22%, rgba(236, 112, 125, 0.16), rgba(236, 112, 125, 0) 42%),
+		    radial-gradient(circle at 82% 78%, rgba(108, 149, 181, 0.2), rgba(108, 149, 181, 0) 48%),
+		    linear-gradient(145deg, rgba(244, 249, 255, 0.96), rgba(255, 255, 255, 0.98));
+		  border: 1px solid rgba(108, 149, 181, 0.22);
+		  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+		}
+
+		.mentorship-map::before {
+		  content: "";
+		  position: absolute;
+		  inset: 0;
+		  pointer-events: none;
+		  background-image:
+		    radial-gradient(rgba(108, 149, 181, 0.28) 1px, transparent 1px),
+		    radial-gradient(rgba(236, 112, 125, 0.2) 1px, transparent 1px);
+		  background-size: 28px 28px, 48px 48px;
+		  background-position: 0 0, 16px 12px;
+		  opacity: 0.24;
+		}
+
+		.mentorship-lines {
+		  position: absolute;
+		  inset: 0;
+		  width: 100%;
+		  height: 100%;
+		  z-index: 1;
+		  pointer-events: none;
+		}
+
+		.mentorship-lines path {
+		  fill: none;
+		  stroke: rgba(108, 149, 181, 0.52);
+		  stroke-width: 1.2;
+		  stroke-linecap: round;
+		  stroke-dasharray: 4 8;
+		  animation: constellation-flow 9s linear infinite;
+		}
+
+		.mentorship-core {
+		  position: absolute;
+		  z-index: 3;
+		  width: 54px;
+		  height: 54px;
+		  transform: translate(-50%, -50%) translate(var(--float-x, 0px), var(--float-y, 0px)) scale(var(--core-scale, 1));
+		  border-radius: 999px;
+		  border: 1px solid rgba(255, 255, 255, 0.85);
+		  background: linear-gradient(145deg, rgba(236, 112, 125, 0.95), rgba(108, 149, 181, 0.9));
+		  box-shadow: 0 0 0 8px rgba(236, 112, 125, 0.12), 0 16px 30px rgba(22, 45, 72, 0.24);
+		  cursor: pointer;
+		  transition: transform 0.22s ease, box-shadow 0.22s ease;
+		}
+
+		.mentorship-core:hover,
+		.mentorship-core:focus-visible {
+		  --core-scale: 1.08;
+		  box-shadow: 0 0 0 10px rgba(236, 112, 125, 0.14), 0 20px 36px rgba(22, 45, 72, 0.3);
+		  outline: none;
+		}
+
+		.mentorship-core::before {
+		  content: "✦";
+		  position: absolute;
+		  inset: 0;
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  color: rgba(255, 255, 255, 0.95);
+		  font-size: 1.1rem;
+		  font-weight: 700;
+		}
+
+		.mentorship-node {
+		  position: absolute;
+		  z-index: 4;
+		  width: 18px;
+		  height: 18px;
+		  transform: translate(-50%, -50%) translate(var(--float-x, 0px), var(--float-y, 0px)) scale(var(--node-scale, 1));
+		  border: 2px solid rgba(255, 255, 255, 0.92);
+		  border-radius: 999px;
+		  background: linear-gradient(140deg, rgba(108, 149, 181, 0.95), rgba(80, 126, 163, 0.92));
+		  box-shadow: 0 8px 20px rgba(22, 45, 72, 0.3);
+		  cursor: pointer;
+		  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+		}
+
+		.mentorship-node::after {
+		  content: "";
+		  position: absolute;
+		  inset: -7px;
+		  border-radius: 999px;
+		  border: 1px solid rgba(108, 149, 181, 0.35);
+		  opacity: 0.65;
+		}
+
+		.mentorship-node:hover,
+		.mentorship-node:focus-visible {
+		  --node-scale: 1.2;
+		  box-shadow: 0 12px 24px rgba(22, 45, 72, 0.38);
+		  background: linear-gradient(145deg, rgba(236, 112, 125, 0.95), rgba(108, 149, 181, 0.9));
+		  outline: none;
+		}
+
+		.mentorship-tooltip {
+		  position: absolute;
+		  z-index: 5;
+		  min-width: 170px;
+		  max-width: 220px;
+		  padding: 0.45rem 0.62rem;
+		  border-radius: 0.72rem;
+		  border: 1px solid rgba(151, 183, 210, 0.48);
+		  background: rgba(16, 31, 50, 0.95);
+		  box-shadow: 0 16px 30px rgba(17, 31, 48, 0.35);
+		  color: #f4f8ff;
+		  pointer-events: none;
+		  opacity: 0;
+		  transform: translate(-50%, calc(-100% - 12px)) scale(0.96);
+		  transition: opacity 0.18s ease, transform 0.18s ease;
+		}
+
+		.mentorship-tooltip.is-visible {
+		  opacity: 1;
+		  transform: translate(-50%, calc(-100% - 12px)) scale(1);
+		}
+
+		.mentorship-tooltip.is-below {
+		  transform: translate(-50%, 12px) scale(0.96);
+		}
+
+		.mentorship-tooltip.is-visible.is-below {
+		  transform: translate(-50%, 12px) scale(1);
+		}
+
+		.mentorship-tooltip::after {
+		  content: "";
+		  position: absolute;
+		  left: 50%;
+		  bottom: -6px;
+		  width: 10px;
+		  height: 10px;
+		  transform: translateX(-50%) rotate(45deg);
+		  background: rgba(16, 31, 50, 0.95);
+		  border-right: 1px solid rgba(151, 183, 210, 0.48);
+		  border-bottom: 1px solid rgba(151, 183, 210, 0.48);
+		}
+
+		.mentorship-tooltip.is-below::after {
+		  top: -6px;
+		  bottom: auto;
+		  border-right: none;
+		  border-bottom: none;
+		  border-left: 1px solid rgba(151, 183, 210, 0.48);
+		  border-top: 1px solid rgba(151, 183, 210, 0.48);
+		}
+
+		.mentorship-tooltip strong {
+		  display: block;
+		  font-size: 0.84rem;
+		  font-weight: 700;
+		  color: #ffffff;
+		}
+
+		.mentorship-tooltip span {
+		  display: block;
+		  margin-top: 0.18rem;
+		  font-size: 0.74rem;
+		  color: rgba(208, 226, 247, 0.95);
+		}
+
+		.geo-globe-wrap {
+		  width: min(280px, 95%);
+		  margin: 1rem auto 0;
+		  padding: 0.85rem;
+		  border-radius: 0.95rem;
+		  background: linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(245, 249, 255, 0.92));
+		  border: 1px solid rgba(108, 149, 181, 0.24);
+		  box-shadow: 0 14px 34px rgba(22, 45, 72, 0.12);
+		}
+
+		.scroll-progress {
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 4px;
+		  transform-origin: left center;
+		  transform: scaleX(0);
+		  background: linear-gradient(90deg, #ec707d, #6c95b5);
+		  box-shadow: 0 3px 14px rgba(236, 112, 125, 0.35);
+		  z-index: 999;
+		}
+
+		.js-enhanced .reveal-on-scroll {
+		  opacity: 0;
+		  transform: translateY(18px) scale(0.985);
+		  transition: opacity 0.52s ease, transform 0.52s ease;
+		  transition-delay: var(--reveal-delay, 0ms);
+		}
+
+		.js-enhanced .reveal-on-scroll.is-visible {
+		  opacity: 1;
+		  transform: translateY(0) scale(1);
+		}
+
+		@keyframes constellation-flow {
+		  to {
+		    stroke-dashoffset: -120;
+		  }
+		}
+
+		@media (min-width: 768px) {
+		  .button-59 {
+		    padding-left: 5px;
+		    padding-right: 5px;
+		  }
+		}
+
+		@media (max-width: 768px) {
+		  .story-section {
+		    margin: 0.65rem 0 1.2rem;
+		    padding: 0.82rem 0.78rem 0.9rem;
+		  }
+
+		  .story-section h1 {
+		    padding: 0.36rem 0.7rem 0.34rem 0.82rem;
+		    font-size: clamp(1.25rem, 5vw, 1.58rem);
+		  }
+
+		  #news > div {
+		    height: 180px !important;
+		  }
+
+		  .paper-box {
+		    padding-left: 0.82rem;
+		    padding-right: 0.82rem;
+		  }
+
+		  .mentorship-constellation {
+		    padding: 0.75rem 0.8rem 0.82rem;
+		  }
+
+		  .mentorship-map {
+		    height: 220px;
+		  }
+		}
+
+		@media (hover: none), (pointer: coarse) {
+		  .paper-box.paper-tilt:hover {
+		    transform: none;
+		    box-shadow: 0 14px 34px rgba(22, 45, 72, 0.09);
+		  }
+		}
+
+		@media (prefers-reduced-motion: reduce) {
+		  .js-enhanced .reveal-on-scroll,
+		  .js-enhanced .reveal-on-scroll.is-visible,
+		  .highlight-block,
+		  .paper-box {
+		    opacity: 1;
+		    transform: none;
+		    transition: none;
+		    animation: none;
+		  }
+
+		  .scroll-progress {
+		    display: none;
+		  }
+
+		  .mentorship-lines path,
+		  .mentorship-core,
+		  .mentorship-node,
+		  .mentorship-tooltip {
+		    animation: none;
+		    transition: none;
+		  }
+		}
+	    </style>
     <script>
         try{
             if (window.screen.width < 700) {
@@ -271,12 +745,485 @@ redirect_from:
             prompt("You can copy the text manually.", data[key]);
         }
     </script>
+
+    <script>
+        document.documentElement.classList.add("js-enhanced");
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var content = document.querySelector(".page__content");
+            if (!content || content.dataset.motionReady === "1") {
+                return;
+            }
+            content.dataset.motionReady = "1";
+            var ns = "http://www.w3.org/2000/svg";
+            var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+            var setupMentorshipConstellation = function () {
+                var mentorshipHeading = null;
+                Array.prototype.forEach.call(content.querySelectorAll("h4"), function (heading) {
+                    if (heading.textContent && heading.textContent.trim().toLowerCase() === "mentorship") {
+                        mentorshipHeading = heading;
+                    }
+                });
+                if (!mentorshipHeading) {
+                    return null;
+                }
+
+                var list = mentorshipHeading.nextElementSibling;
+                if (!list || list.tagName !== "UL" || list.parentNode.classList.contains("mentorship-constellation")) {
+                    return null;
+                }
+
+                var profileOverrides = {
+                    "ruichuan an": {
+                        destination: "Mentor @ PKU",
+                        internship: "MSRA",
+                        publication: "NIPS*2, ICLR*1, ECCV*1"
+                    },
+                    "sihan yang": {
+                        internship: "Kuaishou Keling, TikTok",
+                        publication: "NIPS*1"
+                    },
+                    "kai zeng": {
+                        internship: "Xiaomi, TikTok",
+                        publication: "ICLR*1"
+                    },
+                    "ming zhong": {
+                        destination: "ZJU",
+                        internship: "MinMax",
+                        publication: "CVPR*1"
+                    }
+                };
+
+                var parsePerson = function (item) {
+                    var raw = (item.textContent || "").replace(/\s+/g, " ").trim();
+                    if (!raw) {
+                        return null;
+                    }
+
+                    var sections = raw.split(/Internship\s*:/i);
+                    var lead = sections[0].replace(/,\s*$/, "").trim();
+                    var internship = "";
+                    var publication = "";
+                    if (sections[1]) {
+                        var tail = sections[1].trim();
+                        var publicationSections = tail.split(/Publication[s]?\s*:/i);
+                        internship = publicationSections[0].replace(/,\s*$/, "").trim();
+                        publication = publicationSections[1] ? publicationSections[1].trim() : "";
+                    }
+
+                    var firstComma = lead.indexOf(",");
+                    var name = firstComma >= 0 ? lead.slice(0, firstComma).trim() : lead;
+                    var destination = firstComma >= 0 ? lead.slice(firstComma + 1).trim() : "";
+                    var key = name.toLowerCase();
+                    var override = profileOverrides[key] || {};
+
+                    if (!destination) {
+                        destination = override.destination || "To be announced";
+                    }
+                    if (!internship) {
+                        internship = override.internship || "N/A";
+                    } else if (override.internship) {
+                        internship = override.internship;
+                    }
+                    if (!publication) {
+                        publication = override.publication || "N/A";
+                    } else if (override.publication) {
+                        publication = override.publication;
+                    }
+
+                    return {
+                        name: name,
+                        destination: destination,
+                        internship: internship,
+                        publication: publication
+                    };
+                };
+
+                var people = Array.prototype.map.call(list.querySelectorAll("li"), parsePerson).filter(function (person) {
+                    return person && person.name;
+                });
+
+                if (!people.length) {
+                    return null;
+                }
+
+                var wrap = document.createElement("div");
+                wrap.className = "mentorship-constellation reveal-on-scroll";
+                list.parentNode.insertBefore(wrap, list);
+                wrap.appendChild(list);
+                list.classList.add("mentorship-source");
+
+                var map = document.createElement("div");
+                map.className = "mentorship-map";
+                wrap.appendChild(map);
+
+                var lines = document.createElementNS(ns, "svg");
+                lines.setAttribute("class", "mentorship-lines");
+                lines.setAttribute("aria-hidden", "true");
+                map.appendChild(lines);
+
+                var core = document.createElement("button");
+                core.type = "button";
+                core.className = "mentorship-core";
+                core.dataset.name = "Ruichuan An";
+                core.dataset.destination = "Mentor @ PKU";
+                core.dataset.internship = "MSRA";
+                core.dataset.publication = "NIPS*2, ICLR*1, ECCV*1";
+                core.setAttribute("aria-label", "Ruichuan An, internship MSRA, publications NIPS*2 ICLR*1 ECCV*1");
+                map.appendChild(core);
+
+                var tooltip = document.createElement("div");
+                tooltip.className = "mentorship-tooltip";
+                tooltip.setAttribute("role", "status");
+                tooltip.setAttribute("aria-live", "polite");
+                map.appendChild(tooltip);
+
+                var escapeHtml = function (text) {
+                    return text.replace(/[&<>"']/g, function (char) {
+                        if (char === "&") return "&amp;";
+                        if (char === "<") return "&lt;";
+                        if (char === ">") return "&gt;";
+                        if (char === "\"") return "&quot;";
+                        return "&#39;";
+                    });
+                };
+
+                var nodes = people.map(function (person) {
+                    var node = document.createElement("button");
+                    node.type = "button";
+                    node.className = "mentorship-node";
+                    node.dataset.name = person.name;
+                    node.dataset.destination = person.destination;
+                    node.dataset.internship = person.internship;
+                    node.dataset.publication = person.publication;
+                    node.setAttribute("aria-label", person.name + ", destination " + person.destination + ", internship " + person.internship + ", publications " + person.publication);
+                    map.appendChild(node);
+                    return node;
+                });
+
+                var linePaths = nodes.map(function (_, idx) {
+                    var link = document.createElementNS(ns, "path");
+                    link.style.animationDelay = (idx * -1.25).toFixed(2) + "s";
+                    lines.appendChild(link);
+                    return link;
+                });
+
+                var createState = function (el, index, isCore) {
+                    var baseAmplitude = isCore ? 4.5 : 7 + Math.random() * 4.2;
+                    return {
+                        el: el,
+                        isCore: isCore,
+                        index: index,
+                        baseX: 0,
+                        baseY: 0,
+                        currentX: 0,
+                        currentY: 0,
+                        anchorAngle: 0,
+                        amplitudeX: baseAmplitude,
+                        amplitudeY: baseAmplitude * (0.76 + Math.random() * 0.28),
+                        speedX: 0.44 + Math.random() * 0.24,
+                        speedY: 0.38 + Math.random() * 0.26,
+                        phaseX: Math.random() * Math.PI * 2,
+                        phaseY: Math.random() * Math.PI * 2
+                    };
+                };
+
+                var coreState = createState(core, 0, true);
+                var nodeStates = nodes.map(function (node, idx) {
+                    return createState(node, idx + 1, false);
+                });
+                var allStates = [coreState].concat(nodeStates);
+                var stateMap = new WeakMap();
+                allStates.forEach(function (state) {
+                    stateMap.set(state.el, state);
+                });
+
+                var activeNode = null;
+                var animationStart = window.performance.now();
+
+                var getStateFromNode = function (node) {
+                    if (!node || !stateMap.has(node)) {
+                        return null;
+                    }
+                    return stateMap.get(node);
+                };
+
+                var positionTooltip = function (node) {
+                    var state = getStateFromNode(node);
+                    if (!state) {
+                        return;
+                    }
+
+                    var x = state.currentX;
+                    var y = state.currentY;
+                    var clampedX = Math.max(96, Math.min(map.clientWidth - 96, x));
+                    var placeBelow = y < 76;
+                    tooltip.style.left = clampedX.toFixed(2) + "px";
+                    tooltip.style.top = (placeBelow ? (y + 14) : (y - 14)).toFixed(2) + "px";
+                    tooltip.classList.toggle("is-below", placeBelow);
+                };
+
+                var showTooltip = function (node) {
+                    activeNode = node;
+                    tooltip.innerHTML = "<strong>" + escapeHtml(node.dataset.name || "") + "</strong>" +
+                        "<span>Path: " + escapeHtml(node.dataset.destination || "") + "</span>" +
+                        "<span>Internship: " + escapeHtml(node.dataset.internship || "N/A") + "</span>" +
+                        "<span>Publications: " + escapeHtml(node.dataset.publication || "N/A") + "</span>";
+                    positionTooltip(node);
+                    tooltip.classList.add("is-visible");
+                };
+
+                var hideTooltip = function () {
+                    activeNode = null;
+                    tooltip.classList.remove("is-visible");
+                    tooltip.classList.remove("is-below");
+                };
+
+                var bindNodeEvents = function (node) {
+                    node.addEventListener("mouseenter", function () {
+                        showTooltip(node);
+                    });
+                    node.addEventListener("focus", function () {
+                        showTooltip(node);
+                    });
+                    node.addEventListener("mouseleave", function () {
+                        if (activeNode === node) {
+                            hideTooltip();
+                        }
+                    });
+                    node.addEventListener("blur", function () {
+                        if (activeNode === node) {
+                            hideTooltip();
+                        }
+                    });
+                    node.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        if (activeNode === node && tooltip.classList.contains("is-visible")) {
+                            hideTooltip();
+                        } else {
+                            showTooltip(node);
+                        }
+                    });
+                };
+
+                bindNodeEvents(core);
+                nodes.forEach(bindNodeEvents);
+
+                map.addEventListener("mouseleave", hideTooltip);
+                map.addEventListener("pointerleave", hideTooltip);
+
+                var setBasePositions = function () {
+                    var width = map.clientWidth;
+                    var height = map.clientHeight;
+                    if (!width || !height) {
+                        return;
+                    }
+
+                    lines.setAttribute("viewBox", "0 0 " + width + " " + height);
+
+                    var centerX = width * 0.5;
+                    var centerY = height * 0.52;
+
+                    coreState.baseX = centerX;
+                    coreState.baseY = centerY;
+                    core.style.left = centerX.toFixed(2) + "px";
+                    core.style.top = centerY.toFixed(2) + "px";
+
+                    var ringRadius = Math.min(width, height) * 0.34;
+                    var step = nodeStates.length ? (Math.PI * 2) / nodeStates.length : 0;
+                    var startAngle = -Math.PI / 2;
+
+                    nodeStates.forEach(function (state, idx) {
+                        var angle = startAngle + step * idx;
+                        var radius = ringRadius + ((idx % 2 === 0 ? 1 : -1) * 16);
+                        var x = centerX + Math.cos(angle) * radius;
+                        var y = centerY + Math.sin(angle) * radius * 0.9;
+                        var margin = 18;
+                        x = Math.max(margin, Math.min(width - margin, x));
+                        y = Math.max(margin, Math.min(height - margin, y));
+                        state.baseX = x;
+                        state.baseY = y;
+                        state.anchorAngle = angle;
+                        state.el.style.left = x.toFixed(2) + "px";
+                        state.el.style.top = y.toFixed(2) + "px";
+                    });
+                };
+
+                var drawLinks = function () {
+                    var coreX = coreState.currentX;
+                    var coreY = coreState.currentY;
+                    nodeStates.forEach(function (state, idx) {
+                        var targetX = state.currentX;
+                        var targetY = state.currentY;
+                        var dx = targetX - coreX;
+                        var dy = targetY - coreY;
+                        var normalX = -dy;
+                        var normalY = dx;
+                        var normalLength = Math.sqrt(normalX * normalX + normalY * normalY) || 1;
+                        var curve = 16 + (idx % 2) * 10;
+                        var offsetX = (normalX / normalLength) * curve;
+                        var offsetY = (normalY / normalLength) * curve;
+                        var c1x = coreX + dx * 0.34 + offsetX;
+                        var c1y = coreY + dy * 0.34 + offsetY;
+                        var c2x = coreX + dx * 0.74 - offsetX * 0.45;
+                        var c2y = coreY + dy * 0.74 - offsetY * 0.45;
+                        linePaths[idx].setAttribute(
+                            "d",
+                            "M " + coreX.toFixed(2) + " " + coreY.toFixed(2) +
+                            " C " + c1x.toFixed(2) + " " + c1y.toFixed(2) +
+                            " " + c2x.toFixed(2) + " " + c2y.toFixed(2) +
+                            " " + targetX.toFixed(2) + " " + targetY.toFixed(2)
+                        );
+                    });
+                };
+
+                var updateFrame = function (timestamp) {
+                    var width = map.clientWidth;
+                    var height = map.clientHeight;
+                    if (!width || !height) {
+                        return;
+                    }
+
+                    var t = (timestamp - animationStart) / 1000;
+                    allStates.forEach(function (state) {
+                        var floatX = 0;
+                        var floatY = 0;
+                        if (!prefersReducedMotion) {
+                            floatX = Math.sin(t * state.speedX + state.phaseX) * state.amplitudeX;
+                            floatY = Math.cos(t * state.speedY + state.phaseY) * state.amplitudeY;
+                        }
+                        var x = state.baseX + floatX;
+                        var y = state.baseY + floatY;
+                        var margin = state.isCore ? 30 : 16;
+                        x = Math.max(margin, Math.min(width - margin, x));
+                        y = Math.max(margin, Math.min(height - margin, y));
+                        state.currentX = x;
+                        state.currentY = y;
+                        state.el.style.setProperty("--float-x", (x - state.baseX).toFixed(2) + "px");
+                        state.el.style.setProperty("--float-y", (y - state.baseY).toFixed(2) + "px");
+                    });
+
+                    drawLinks();
+                    if (activeNode) {
+                        positionTooltip(activeNode);
+                    }
+                };
+
+                var animate = function (timestamp) {
+                    updateFrame(timestamp);
+                    window.requestAnimationFrame(animate);
+                };
+
+                setBasePositions();
+                updateFrame(window.performance.now());
+                if (!prefersReducedMotion) {
+                    window.requestAnimationFrame(animate);
+                }
+
+                return function () {
+                    hideTooltip();
+                    setBasePositions();
+                    updateFrame(window.performance.now());
+                };
+            };
+
+            var nodes = Array.prototype.slice.call(content.children);
+            var currentSection = null;
+            nodes.forEach(function (node) {
+                if (node.tagName === "SPAN" && node.classList.contains("anchor")) {
+                    currentSection = null;
+                    return;
+                }
+                if (node.tagName === "H1") {
+                    currentSection = document.createElement("section");
+                    currentSection.className = "story-section reveal-on-scroll";
+                    node.parentNode.insertBefore(currentSection, node);
+                    currentSection.appendChild(node);
+                    return;
+                }
+                if (currentSection && !/^(SCRIPT|STYLE|HEAD)$/.test(node.tagName)) {
+                    currentSection.appendChild(node);
+                }
+            });
+
+            var redrawMentorshipMap = setupMentorshipConstellation();
+            var sections = content.querySelectorAll(".reveal-on-scroll");
+            sections.forEach(function (section, idx) {
+                section.style.setProperty("--reveal-delay", (idx * 70) + "ms");
+            });
+
+            if ("IntersectionObserver" in window) {
+                var observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("is-visible");
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.18, rootMargin: "0px 0px -8% 0px" });
+
+                sections.forEach(function (section) {
+                    observer.observe(section);
+                });
+            } else {
+                sections.forEach(function (section) {
+                    section.classList.add("is-visible");
+                });
+            }
+
+            var cards = content.querySelectorAll(".paper-box");
+            var allowTilt = window.matchMedia("(hover: hover) and (pointer: fine)").matches &&
+                !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+            cards.forEach(function (card) {
+                if (!allowTilt) {
+                    return;
+                }
+                card.classList.add("paper-tilt");
+                card.addEventListener("mousemove", function (event) {
+                    var rect = card.getBoundingClientRect();
+                    var px = (event.clientX - rect.left) / rect.width - 0.5;
+                    var py = (event.clientY - rect.top) / rect.height - 0.5;
+                    card.style.setProperty("--rx", (-py * 5).toFixed(2) + "deg");
+                    card.style.setProperty("--ry", (px * 7).toFixed(2) + "deg");
+                    card.style.setProperty("--glow-x", (event.clientX - rect.left) + "px");
+                    card.style.setProperty("--glow-y", (event.clientY - rect.top) + "px");
+                });
+                card.addEventListener("mouseleave", function () {
+                    card.style.removeProperty("--rx");
+                    card.style.removeProperty("--ry");
+                    card.style.removeProperty("--glow-x");
+                    card.style.removeProperty("--glow-y");
+                });
+            });
+
+            var progress = document.createElement("div");
+            progress.className = "scroll-progress";
+            document.body.appendChild(progress);
+
+            var updateProgress = function () {
+                var doc = document.documentElement;
+                var max = doc.scrollHeight - window.innerHeight;
+                var ratio = max > 0 ? window.scrollY / max : 0;
+                progress.style.transform = "scaleX(" + Math.min(Math.max(ratio, 0), 1).toFixed(4) + ")";
+            };
+
+            updateProgress();
+            window.addEventListener("scroll", updateProgress, { passive: true });
+            window.addEventListener("resize", function () {
+                updateProgress();
+                if (typeof redrawMentorshipMap === "function") {
+                    redrawMentorshipMap();
+                }
+            });
+        });
+    </script>
 </head>
 
 <span class='anchor' id='about-me'></span>
 
 # 👤 Biography
- I am a first-year master student at **Peking University**, where I am co-supervised by [**Wentao Zhang**](https://zwt233.github.io/) and [**Weinan E**](https://scholar.google.com/citations?user=i2mOt14AAAAJ&hl=en) at [**AAIS**](https://www.aais.pku.edu.cn/). I also closely work with [**Renrui Zhang**](https://scholar.google.com/citations?hl=en&user=YlL3xN4AAAAJ&view_op=list_works&sortby=pubdate). Previously, I had a wonderful time at [**Tiktok**](https://www.tiktok.com/explore) and [**MSRA**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), serving as research intern. More about my experience can be found in [CV](assets/Ruichuan_An_new.pdf).
+ I am a first-year master student at **Peking University**, where I am co-supervised by [**Wentao Zhang**](https://zwt233.github.io/) and [**Weinan E**](https://scholar.google.com/citations?user=i2mOt14AAAAJ&hl=en) at [**AAIS**](https://www.aais.pku.edu.cn/). I also closely work with [**Renrui Zhang**](https://scholar.google.com/citations?hl=en&user=YlL3xN4AAAAJ&view_op=list_works&sortby=pubdate). Previously, I had a wonderful time at [**MSRA**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), serving as research intern. More about my experience can be found in [CV](assets/Ruichuan_An_new.pdf).
 
 **Many kind people helped me in my journey.** If you want to talk more about research or seek advice that I might be able to provide, please no hesitation to reach out. My MBTI type is **ENFJ**(233), feel free to drop me an Email for any form of communication or collaboration! 
 
@@ -322,6 +1269,7 @@ redirect_from:
 # 🔥 News
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
+	  	<p>[02.2026] 🎉 One paper <strong>VCU-Bridge</strong> was accepted by <strong>CVPR 2026</strong>, I'm the project leader for the first time!</p>
 		<p>[01.2026] 🎉 Three papers <strong>AesBench</strong>, <strong>SpikeGen</strong> and <strong>MV-RoboBench</strong> were accepted by <strong>ICLR 2026</strong>, I have one first author paper! </p>
         <p>[09.2025] 🎉 Three papers <strong>UniCTokens</strong>, <strong>PAM</strong> and <strong>A-CFG</strong> were accepted by <strong>NIPS 2025</strong> (CCF-A), I have two (co-)first author papers! </p>
         <p>[09.2025] 🎓 I joined Peking University and pursuing master's degree. </p>
@@ -389,6 +1337,7 @@ redirect_from:
 #### Mentorship
 - Sihan Yang, XJTU -> PKU, Internship: [**Kuaishou, Kling**](https://github.com/KlingTeam), [**Tiktok**](https://www.tiktok.com/)
 - Kai Zeng, TJU -> PKU, Internship: [**XiaoMi**](https://www.mi.com/sg/), [**Tiktok**](https://www.tiktok.com/)
+- Ming Zhong, ZJU, Internship: [**MinMax**](https://www.minimaxi.com/)
 
 <br>
 
@@ -427,8 +1376,7 @@ redirect_from:
 <br> -->
 
 <!-- <div style="text-align: center;"> -->
-<div style="width: 20%; position:relative; left:40%">
+<div class="geo-globe-wrap">
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=TexC6zB_7AOUKNMMshe4U4igIY-rca8pyS5kiQ7N6C8"></script>
     <!-- 地图小部件代码结束 -->
 </div>
-
