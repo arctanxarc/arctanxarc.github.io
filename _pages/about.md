@@ -1242,9 +1242,7 @@ redirect_from:
   <div class="highlight-block">
     <h3>🔬 AI Researcher</h3>
     <ul>
-      <li>Current Interests focus on <strong>Unified Model</strong> and <strong>Reasoning</strong></li> 
-      <li>Unified Model: Build Unified Representation and Make Understanding and Generation truly benefits each other.</li>
-      <li>Reasoning: Think with (generated) image/ video, better adaptation to the real world environments.</li>
+      <li>My research aims to build next-generation foundation models driven by <strong>Visual Priors</strong>. While language explains the world as a compressed interface, visual representations, which capture spatial structures, physical dynamics, and granular details, are essential to truly represent and simulate it.</li>
 
     </ul>
   </div>
