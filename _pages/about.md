@@ -1223,7 +1223,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👤 Biography
- I am a first-year master student at **Peking University**, where I am co-supervised by [**Wentao Zhang**](https://zwt233.github.io/) and [**Weinan E**](https://scholar.google.com/citations?user=i2mOt14AAAAJ&hl=en) at [**AAIS**](https://www.aais.pku.edu.cn/). I also closely work with [**Renrui Zhang**](https://scholar.google.com/citations?hl=en&user=YlL3xN4AAAAJ&view_op=list_works&sortby=pubdate). Previously, I had a wonderful time at [**MSRA**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), serving as research intern. More about my experience can be found in [CV](assets/Ruichuan_An_new.pdf).
+ I am a first-year master student at **Peking University**, where I am co-supervised by [**Wentao Zhang**](https://zwt233.github.io/) and [**Weinan E**](https://scholar.google.com/citations?user=i2mOt14AAAAJ&hl=en) at [**AAIS**](https://www.aais.pku.edu.cn/). I also closely work with [**Renrui Zhang**](https://scholar.google.com/citations?hl=en&user=YlL3xN4AAAAJ&view_op=list_works&sortby=pubdate). Previously, I had a wonderful time at Bytedance Seed and [**MSRA**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), serving as research intern.
 
 **Many kind people helped me in my journey.** If you want to talk more about research or seek advice that I might be able to provide, please no hesitation to reach out. My MBTI type is **ENFJ**(233), feel free to drop me an Email for any form of communication or collaboration! 
 
