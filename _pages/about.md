@@ -1225,6 +1225,8 @@ redirect_from:
 # 👤 Biography
  I am a first-year master student at **Peking University**, where I am co-supervised by [**Wentao Zhang**](https://zwt233.github.io/) and [**Weinan E**](https://scholar.google.com/citations?user=i2mOt14AAAAJ&hl=en) at [**AAIS**](https://www.aais.pku.edu.cn/). I also closely work with [**Renrui Zhang**](https://scholar.google.com/citations?hl=en&user=YlL3xN4AAAAJ&view_op=list_works&sortby=pubdate). Previously, I had a wonderful time at Bytedance Seed and [**MSRA**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), serving as research intern.
 
+My research focus on VLM/ Unified Model/ World Model/ Data, has accumulated **600+** citations. My work has been followed by **Deepmind/ Nvidia Research/ Hunyuan** and so on. I have received internship invitation and gift funding from **Adobe** and invited talk sessions from **Microsoft** because of my work.
+
 **Many kind people helped me in my journey.** If you want to talk more about research or seek advice that I might be able to provide, please no hesitation to reach out. My MBTI type is **ENFJ**(233), feel free to drop me an Email for any form of communication or collaboration! 
 
 📌 We have several academic intern positions at **DCML Lab (Peking University)**. We actively work on **Data-Centric AI** and **Vision-Language Model**. If you like what we do, don't hesitate to contact me. I currently lead a research group of master's and undergraduate students at Peking University. I am proud to have helped many of them secure **top-tier** labs and internships. You can find more details in [Mentorship](#mentorship).
@@ -1242,7 +1244,7 @@ redirect_from:
   <div class="highlight-block">
     <h3>🔬 AI Researcher</h3>
     <ul>
-      <li>My research aims to build next-generation foundation models driven by <strong>Visual Priors</strong>. While language explains the world as a compressed interface, visual representations, which capture spatial structures, physical dynamics, and granular details, are essential to truly represent and simulate it.</li>
+      <li>My research aims to build next-generation Visual Foundation Models driven by <strong>Visual Priors</strong>. While language explains the world as a compressed interface, visual representations, which capture spatial structures, physical dynamics, and granular details, are essential to truly represent and simulate it. </li>
 
     </ul>
   </div>
